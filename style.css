@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    color: white;
+}
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+    border: 10px solid white;
+    width: 35%;
+    height: 380px;
+    margin: 30px auto;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 50px;
+    flex-wrap: wrap;
+    box-shadow: rgb(33, 143, 240) 5px 3px 6px 5px inset, rgba(204, 101, 101, 0.5) -7px -3px 6px 5px inset;
+}
+.button{
+    margin-top: 70px;
+}
+.btn{
+    margin-right: 30px;
+    width: 140px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: green;
+    box-shadow: green 5px 10px 5px 2px;
+}
+.btn:hover{
+    background-color: white;
+    border: 3px solid green;
+}
+.btn1{
+    width: 140px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: red;
+    box-shadow: red 5px 10px 5px 2px;
+}
+.btn1:hover{
+    background-color: white;
+    border: 3px solid red;
+}
+.btn2{
+    margin-left: 30px;
+    width: 140px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: yellow;
+    box-shadow: yellow 5px 10px 5px 2px;
+}
+.btn2:hover{
+    background-color: white;
+    border: 3px solid yellow;
+}
